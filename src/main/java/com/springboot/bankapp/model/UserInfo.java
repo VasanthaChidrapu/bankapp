@@ -50,12 +50,14 @@ public class UserInfo {
 		this.password = password;
 	}
 
-	public Role getRoles() {
+	public Role getRole() {
 		return role;
 	}
 
 	public void setRole(Role role) {
 		this.role = role;
-	} 
+	}
+
+	
 	
 }

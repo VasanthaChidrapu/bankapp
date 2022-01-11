@@ -16,6 +16,7 @@ public class CustomerController {
 private CustomerService customerService;
 @PostMapping("/customer")
 public Customer postCustomer(@RequestBody Customer customer) {
+	System.out.println("customer");
 	return customerService.postCustomer(customer);
 }
 @DeleteMapping("/customer/{id}")
